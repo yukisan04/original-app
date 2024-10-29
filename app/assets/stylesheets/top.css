@@ -1,0 +1,26 @@
+
+body {
+  background: linear-gradient(279deg, #2455EB, #24DDEB, #B33CFF);
+  background-size: 600% 600%;
+  animation: GradientBackground 8s ease infinite;
+}
+
+@keyframes GradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+};
+
+body {font-family: 'Arial', sans-serif;
+}
+
+footer {background-color: #f8f9fa;padding: 20px 0;
+}
